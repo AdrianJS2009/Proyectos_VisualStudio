@@ -17,6 +17,8 @@ public class ejerciciosdepractica
 
         while(!salir){ //Aqui a menos que pongamos salir = true, no nos saldremos del menu.
 
+            System.out.println("######################################");
+            System.out.println("");
             System.out.println("1. Variables 1.");
             System.out.println("2. Variables 2.");
             System.out.println("3. Variables 3.");
@@ -26,49 +28,38 @@ public class ejerciciosdepractica
             System.out.println("Salir.");
             System.out.println("");
             System.out.println("Selecciona un ejercicio a ejecutar.");
+            System.out.println("#######################################");
             
             opcion = teclado.nextInt();
 
         switch(opcion){
 
-            case 1: program.ejerciciosdepractica1();
+            case 1: program.ejercicio1();
             break;
             
-            case 2: program.ejerciciosdepractica2();
+            case 2: program.ejercicio2();
             break;
 
-            case 3: program.ejerciciosdepractica3();
+            case 3: program.ejercicio3();
             break;
 
-            case 4: program.ejerciciosdepractica4();
+            case 4: program.ejercicio4();
             break;
 
-            case 5: program.ejerciciosdepractica5();
+            case 5: program.ejercicio5();
             break;
 
-            case 6: program.ejerciciosdepractica6();
+            case 6: program.ejercicio6();
             break;
-
-            case 7:
-            salir = true;
-            break;
+            
             default:
             salir = true;
 
-        }
-
-
-
-
-        }
-        
-
-        teclado.close();
     }
-
-
+    }
+    }
    
-   public void ejerciciosdepractica1(){
+   public void ejercicio1(){
    
     /*Escribe un programa en el que se declaren las variables enteras x e y. Asígnales los valores 200 y
     111 respectivamente. A continuación, muestra por pantalla el valor de cada variable, la suma, la
@@ -98,7 +89,7 @@ public class ejerciciosdepractica
    }
    
    
-public void ejerciciosdepractica2(){
+public void ejercicio2(){
 
 
     /*Modifica el ejercicio anterior y lee del teclado dos enteros para asignarlos respectivamente a x e y.
@@ -132,7 +123,7 @@ int x, y, suma, resta, division, multiplicacion;
 
 }
 
-public void ejerciciosdepractica3(){
+public void ejercicio3(){
 /*Crea la variable nombre y asígnale tu nombre completo 
 mediante un literal. Muestra su valor por pantalla. */
 
@@ -146,7 +137,7 @@ teclado.close();
 
 }
 
-public void ejerciciosdepractica4(){
+public void ejercicio4(){
 
 /*Crea las variables nombre, direccion y telefono y asígnales 
 los valores correspondientes de manera literal. Muestra los valores de esas variables por pantalla. */    
@@ -169,7 +160,7 @@ System.out.println("");
 }
 
 
-public void ejerciciosdepractica5(){
+public void ejercicio5(){
 
     /*Realiza una modificación al ejercicio 4 para que los datos de las variables se lean desde el teclado. */
     Scanner teclado = new Scanner (System.in);
@@ -195,7 +186,7 @@ public void ejerciciosdepractica5(){
 }
 
 
-public void ejerciciosdepractica6(){
+public void ejercicio6(){
 
 /*Escribe un programa que calcule el total de una factura a partir de la base imponible (precio sin
 IVA). Todos los datos se leerán desde el teclado */
