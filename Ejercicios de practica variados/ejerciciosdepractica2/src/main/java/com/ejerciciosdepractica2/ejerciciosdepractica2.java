@@ -1,10 +1,6 @@
 package com.ejerciciosdepractica2;
 
 import java.util.Scanner;
-
-import javax.annotation.processing.SupportedOptions;
-
-
 public class ejerciciosdepractica2  
 {
     public ejerciciosdepractica2(){
