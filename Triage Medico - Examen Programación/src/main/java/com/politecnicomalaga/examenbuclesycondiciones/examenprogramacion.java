@@ -60,6 +60,7 @@ public void triaje(){
       boolean continuar = true;
       String continua;
      
+     
 
       System.out.println("## Comenzamos triage sobre el paciente ##");
 
@@ -143,7 +144,7 @@ public void triaje(){
                                         teclado.reset();}
 
 
-                                        if ("SI".equals(continua)){
+                                         else if ("SI".equals(continua)){
                                             System.out.println("Prioridad 1 - ROJO");
                                             rojo++;
                                             continuar = false;

@@ -18,10 +18,10 @@ public class Hotel {
     public Hotel() {
 
         this.descripcion = "Hotel que se encuentra a 1,6 KM de la Malagueta.";
-        this.nombre = "Only YOU hotel Málaga.";
-        this.direccion = "Alameda Principal, 1, 29001 Málaga";
-        this.telefono = "910 05 27 46";
-        this.correo = "onlyYOUhotel@outlook.es";
+        this.nombre = "Hotel Barceló.";
+        this.direccion = "Calle Aranjuez, 14, 29006 Málaga";
+        this.telefono = "910 15 27 89";
+        this.correo = "Barceloresourt@gmail.es";
         this.client = new ArrayList<>();
 
     }
@@ -47,7 +47,7 @@ public class Hotel {
                 }
             } else {
 
-            System.out.println("\n\nNo se encuentra información acerca de ningun cliente.");
+            System.out.println("\n\nNo hay información de ese cliente.");
 
         }
 
